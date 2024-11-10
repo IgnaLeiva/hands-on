@@ -1,0 +1,6 @@
+# Bias & Condounding {#sec-bias}
+
+
+### Incidence
+
+### Prevalence

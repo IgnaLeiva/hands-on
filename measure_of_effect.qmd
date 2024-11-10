@@ -1,0 +1,509 @@
+# Measures of effect (association) {#sec-measure-of-effect}
+
+
+
+
+## Risk Ratios
+
+### Excercise 1
+
+You are part of a research team conducting a cohort study to evaluate the effect of hormone replacement therapy (HRT) on the development of coronary heart disease (CHD). The research team enrolled post-menopausal women on HRT with no prior history of CHD and followed them for 7 years. Please assume no loss to follow-up.
+
+
+
+<p style="font-size: 16px; color: gray; font-weight: 100;font-style: italic;">Remember: Exposure, HRT, is on the left side of the table, while the outcome, CHD, is on the top of the table.</p>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr style="width:10%; font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">CHD (+)</th>
+    <th style="background: #38A3A5; color: white;">CHD (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;"">HRT (+)</th>
+    <td>210</td>  <!-- Replace with actual data -->
+    <td>3290</td>  <!-- Replace with actual data -->
+    <td>3500</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;"">HRT(-)</th>
+    <td>250</td>  <!-- Replace with actual data -->
+    <td>6250</td>  <!-- Replace with actual data -->
+    <td>6500</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%;font-weight:900;"">Total</th>
+    <td>460</td>  <!-- Column total -->
+    <td>9540</td>  <!-- Column total -->
+    <td>10000</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li>Calculate and interpret the relative risk (RR) for the cohort.</li>
+
+<details><summary>Results</summary>
+
+$$
+P(D+ \mid E+)= \frac{210}{3500} = 0.060
+$$
+
+$$
+P(D+ \mid E-)= \frac{250}{650}0 = 0.038
+$$ 
+
+$$
+RR= \frac{0.64}{0.4} = 1.58
+$$ 
+
+
+__Interpretation:__ Women on HRT have 1.58 times the risk of CHD compared to those who do not take HRT over 7 years.
+
+</details>
+
+<li>Calculate and interpret the risk difference (RD) for the cohort</li>
+
+<details><summary>Results</summary>
+
+$$
+RD= 0.060 - 0.038 = 0.022
+$$
+
+__Interpretation:__ There is an excess of 22 cases of CHD per 1000 women attributable to HRT use over 7 years.
+
+
+</details>
+
+</ul>
+
+### Excercise 2
+
+A study investigates the relationship between smoking and lung cancer. A total of 600 people participated in the study. 250 of the 600 participants had lung cancer, and 160 of the diseased participants were smokers. The total number of smokers in the study was 230.
+
+<p style="color: #a50e58; font-weight: 900;">Fill out the 2x2 table! </p>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%; font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (+)</th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td></td>  <!-- Column total -->
+    <td></td>  <!-- Column total -->
+    <td></td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+<details><summary>Results</summary>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%; font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (+)</th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td>160</td>  <!-- Replace with actual data -->
+    <td>70</td>  <!-- Replace with actual data -->
+    <td>230</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td>90</td>  <!-- Replace with actual data -->
+    <td>280</td>  <!-- Replace with actual data -->
+    <td>370</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td>250</td>  <!-- Column total -->
+    <td>350</td>  <!-- Column total -->
+    <td>600</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+</details>
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li> What absolute part of the incidence of lung cancer is attributable to exposure to smoking?</li>
+<details><summary>Results</summary>
+
+$$
+\text{Atributable Risk} = \frac{160}{230} - \frac{90}{370} =  0.69 – 0.24 = 0.45
+$$
+
+__Interpretation:__ 0.45 or 45% of the cases of lung cancer in the cohort can be attributed to smoking
+</details>
+
+<li>Calculate the risk ratio for the relationship between smoking and lung cancer, interpret the result.</li>
+<details><summary>Results</summary>
+
+$$
+RR = \frac{\frac{160}{230}}{\frac{90}{370}} = \frac{0.69}{0.24} = 2.88
+$$
+
+__Interpretation:__ The risk for smokers to develop lung cancer is 2,88 times as high compared to non-smokers.
+
+</details>
+</ul>
+
+
+### Excercise 3
+
+Comming back the investigation of the effect if HRT in post-menopausal women, you now have the following information
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">With CHD  (+)</th>
+    <th style="background: #38A3A5; color: white;">Person-Years of Disease-free Follow-up</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;font-weight:900;">HRT (+)</th>
+    <td>30</td>  <!-- Replace with actual data -->
+    <td>54,308.7</td>  <!-- Replace with actual data -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">HRT (-)</th>
+    <td>60</td>  <!-- Replace with actual data -->
+    <td>51,477.5</td>  <!-- Replace with actual data -->
+  </tr>
+</table>
+
+```
+
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li> Calculate the Incidece rate among the exposed and unexposed women</li>
+<details><summary>Results</summary>
+
+$$
+IR_{exposed}= \frac{30}{54,308.7} = 0.0005524 \times 100,000 =  55.24 \text{ person-years}
+$$
+
+$$
+IR_{unexposed}= \frac{60}{51,477.5} = 0.001167 \times 100,000 = 116.56 \text{ person-years}
+$$
+
+</details>
+
+<li>Calculate the rate ratio for the relationship between HRT and CHD, interpret the result.</li>
+
+
+<details><summary>Results</summary>
+
+$$
+\text{Rate Ratio}= \frac{55.24}{116.56}  = 0.474
+$$
+
+
+__Interpretation:__ Women on HRT had 0.47 times the rate of CHD compared to women who did not use HRT
+
+(Rate ratios are often interpreted as if they were risk ratios, e.g., post-menopausal women using HRT had 0.47 times the risk of CAD compared to women not using HRT, but it is more precise to refer to the ratio of rates rather than risk.)
+
+</details>
+</ul>
+
+
+
+## Odds Ratios
+
+### Excercise 1
+
+The influence of increased alcohol consumption on the incidence of esophageal cancer was retrospectively investigated in a clinic over a period of 5 years. Patients with other internal diseases were used as a comparison group.
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Cancer (+)</th>
+    <th style="background: #38A3A5; color: white;">Cancer (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;font-weight:900;">Alcohol (+)</th>
+    <td>192</td>  <!-- Replace with actual data -->
+    <td>54</td>  <!-- Replace with actual data -->
+    <td>246</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;font-weight:900;">Alcohol(-)</th>
+    <td>208</td>  <!-- Replace with actual data -->
+    <td>333</td>  <!-- Replace with actual data -->
+    <td>541</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%;font-weight:900;">Total</th>
+    <td>400</td>  <!-- Column total -->
+    <td>387</td>  <!-- Column total -->
+    <td>787</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li>Calculate the odds to be exposed while diseased/not diseased (i.e. case/control)</li>
+
+<details><summary>Results</summary>
+
+$$
+Odds_{case} = \frac{192}{208} = 0.92
+$$
+
+$$
+Odds_{control} = \frac{54}{333} = 0.16
+$$ 
+
+</details>
+<li>Calculate and interpret the odds ratio for the occurrence of esophageal cancer</li>
+<details><summary>Results</summary>
+
+$$
+OR = \frac{0.92}{0.16} = 5.75
+$$
+
+__Interpretation:__ 
+
+- The odds of being exposed to increased alcohol consumption among cases (patients with cancer) is 5.75 times as high compared to the controls (patients with other internal diseases).
+
+- The odds of having cancer are 5.75 times higher among individuals with increased alcohol consumption compared to those without increased alcohol consumption.
+
+</details>
+
+</ul>
+
+### Excercise 2
+
+A cohort study is investigating the influence of smoking on respiratory complaints. In total, 800 people participated in the study. The prevalence of respiratory complaints was 20%. 300 people were smoking and out of those, 100 participants developed respiratory complaints.
+
+<p style="color: #a50e58; font-weight: 900;">Fill out the 2x2 table! </p>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td></td>  <!-- Column total -->
+    <td></td>  <!-- Column total -->
+    <td></td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+<details><summary>Results</summary>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td>100</td>  <!-- Replace with actual data -->
+    <td>200</td>  <!-- Replace with actual data -->
+    <td>300</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td>60</td>  <!-- Replace with actual data -->
+    <td>440</td>  <!-- Replace with actual data -->
+    <td>500</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td>160</td>  <!-- Column total -->
+    <td>640</td>  <!-- Column total -->
+    <td>800</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+</details>
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li>Calculate the risk and risk ratio based on the table above, interpret the results</li>
+<details><summary>Results</summary>
+
+$$
+Risk_{exposed} = \frac{100}{300} = 0.33
+$$
+
+$$
+Risk_{unexposed} = \frac{60}{500} = 0.12
+$$ 
+
+$$
+RR = \frac{0.33}{0.12} = 2.75
+$$ 
+
+__Interpretation:__ The risk of suffering from respiratory symptoms when being a smoker is 2.75 times as high compared to participants who didn’t smoke.
+</details>
+
+<li>Now, let’s assume we designed a case-control study instead of a cohort study with the same numbers from the 2x2 table above. Calculate the odds and odds ratio based on the table above, interpret the result</li>
+<details><summary>Results</summary>
+
+$$
+Odds_{case} = \frac{100}{60} = 1.67
+$$
+
+$$
+Odds_{control} = \frac{200}{440} = 0.45
+$$ 
+
+$$
+OR = \frac{1.67}{0.45} = 3.71
+$$ 
+
+__Interpretation:__ The odds of being exposed to smoking among cases (patients with respiratory complaints) is 3.71 times as high compared to the controls (patients without respiratory complaints). 
+
+</details>
+
+</ul>
+
+### Excercise 3
+
+A second study is again investigating the influence of smoking on respiratory complaints. This time, 900 study participants were enrolled, 93% of those didn’t suffer from respiratory complaints. 5% of the 600 participants that were smokers suffered from respiratory complaints.
+
+<p style="color: #a50e58; font-weight: 900;">Fill out the 2x2 table! </p>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;">Smoker (+)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;">Smoker(-)</th>
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Replace with actual data -->
+    <td></td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%;">Total</th>
+    <td></td>  <!-- Column total -->
+    <td></td>  <!-- Column total -->
+    <td></td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+<details><summary>Results</summary>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
+    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;">Smoker (+)</th>
+    <td>30</td>  <!-- Replace with actual data -->
+    <td>570</td>  <!-- Replace with actual data -->
+    <td>600</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white;">Smoker(-)</th>
+    <td>33</td>  <!-- Replace with actual data -->
+    <td>267</td>  <!-- Replace with actual data -->
+    <td>300</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%;">Total</th>
+    <td>63</td>  <!-- Column total -->
+    <td>837</td>  <!-- Column total -->
+    <td>900</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+</details>
+
+_Task:_
+
+<ul style="list-style-type: upper-alpha;">
+<li>Calculate the risk ratio and the odds ratio</li>
+<details><summary>Results</summary>
+
+$$
+RR = \frac{\frac{30}{600}}{\frac{33}{300}} = 0.45
+$$
+
+$$
+OR = \frac{\frac{30}{570}}{\frac{33}{267}} = 0.43
+$$ 
+
+</details>
+<li>Looking at the different measures you calculated, explain why the RR and OR are different/similar from each other in task 2 vs. task 3.</li>
+
+<details><summary>Results</summary>
+
+__Rare disease assumption:__ when studying diseases that have a low prevalence (<10% as a rule of thumb) in the study population, the odds ratio is a good approximation of the risk ratio.
+
+</details>
+
+</ul>

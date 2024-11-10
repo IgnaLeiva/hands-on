@@ -1,0 +1,57 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Hands-On Pharmacoepidemiology"
+  subtitle: "Practical Exercises and Case Studies"
+  author: "Ignacio Leiva"
+  date: "2023-10-19"
+  search: true
+  #repo-url: "https://github.com/b-rodrigues/quarto_book_nix"
+  repo-actions: [edit]
+  sharing: [twitter, facebook]
+  downloads: [pdf]
+  sidebar: 
+    logo: images/logo.png
+  chapters:
+    - index.qmd
+    - measure_frequency.qmd
+    - measure_of_effect.qmd
+    - bias_confounding.qmd
+ #   - nix_actions.qmd
+ #   - conclusion.qmd
+ #   - shiny.qmd
+  page-navigation: true
+  
+
+bibliography: references.bib
+
+format:
+  html:
+    #include-in-header:
+    #  file: header.html #that was an empty file named like data
+    theme:
+      light: lumen
+      dark: solar
+    css:
+      [style.css]
+  pdf:
+    keep-tex: true
+    documentclass: scrbook
+    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+    include-in-header:
+      text: |
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+        \areaset[0.50in]{4.5in}{8in}
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+           showspaces = false,
+           showtabs = false,
+           breaksymbolleft={},
+           breaklines
+           % Note: setting commandchars=\\\{\} here will cause an error 
+        }  
+    fig-pos: 'H'

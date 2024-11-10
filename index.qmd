@@ -1,0 +1,7 @@
+## Practical exercises {.unnumbered}
+
+This hands-on workbook has been designed to help you put key PhEpi concepts and methods into practice. This workbook supports the material taught in the pharmacoepidemiology course and provides a practical application framework for understanding the topics covered in lectures. The exercises bridge the gap between theory and practice, offering guided opportunities for deepening comprehension.
+
+## Lectures
+
+[Lecture 2. Measures in (Pharmaco)Epidemiology](https://ignaleiva.github.io/Lecture2-Frequency-Effect/#/section) 

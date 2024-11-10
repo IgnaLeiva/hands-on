@@ -1,0 +1,11 @@
+# Measures of frequency {#sec-measure-of-frequency}
+
+
+### Incidence
+
+```{r}
+1+1
+
+```
+
+### Prevalence
