@@ -1,0 +1,32 @@
+
+<!--Solution RR01B-->
+<details><summary>Solution A</summary>
+
+$$
+P(D+ \mid E+)= \frac{210}{3500} = 0.060
+$$
+
+$$
+P(D+ \mid E-)= \frac{250}{6500} = 0.038
+$$ 
+
+$$
+RR= \frac{0.64}{0.4} = 1.58
+$$ 
+
+
+__Interpretation:__ Women on HRT have 1.58 times the risk of CHD compared to those who do not take HRT over 7 years.
+
+</details>
+
+<!--Solution RR01B-->
+<details><summary>Solution A</summary>
+
+$$
+RD= 0.060 - 0.038 = 0.022
+$$
+
+__Interpretation:__ There is an excess of 22 cases of CHD per 1000 women attributable to HRT use over 7 years.
+
+
+</details>

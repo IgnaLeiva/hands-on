@@ -37,21 +37,48 @@ format:
     css:
       [style.css]
   pdf:
-    keep-tex: true
-    documentclass: scrbook
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
-    include-in-header:
-      text: |
-        \usepackage{fvextra}
-        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-        \areaset[0.50in]{4.5in}{8in}
-    include-before-body:
-      text: |
-        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-           showspaces = false,
-           showtabs = false,
-           breaksymbolleft={},
-           breaklines
-           % Note: setting commandchars=\\\{\} here will cause an error 
-        }  
-    fig-pos: 'H'
+      toc: true
+      #shift-heading-level-by: 2
+      fig-pos: "H"
+      fig-cap-location: top
+      geometry:
+        - top=1in
+        - right=.8in
+        - bottom=1in
+        - left=.8in
+     # link-citations: yes
+      linkcolor: blue
+      include-in-header: 
+        text: |
+          \usepackage{fancyhdr}
+          \usepackage{titling}
+          \pagestyle{fancy}
+          \fancyhf{}
+          \renewcommand\maketitle{
+            \fancyhead[C]{
+              \thetitle
+              \ifx \theauthor\empty  \else \ – \theauthor \fi
+              \ifx \thedate\empty  \else \ – \thedate \ \fi
+            }
+          }
+          \fancyfoot[C]{\thepage}
+  # This is an old one
+   # keep-tex: true
+   # fontsize: 14pt
+    #documentclass: scrbook
+   # classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+   # include-in-header:
+    #  text: |
+   #     \usepackage{fvextra}
+    #    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    #    \areaset[0.50in]{4.5in}{8in}
+   # include-before-body:
+   #   text: |
+  #      \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+  #         showspaces = false,
+  #         showtabs = false,
+   #        breaksymbolleft={},
+  #         breaklines
+   #        % Note: setting commandchars=\\\{\} here will cause an error 
+   #     }  
+    #fig-pos: 'H'

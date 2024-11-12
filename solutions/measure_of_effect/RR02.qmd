@@ -1,0 +1,57 @@
+<!-- Soluyion Table RR02-->
+
+<details><summary>Solution Table</summary>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%; font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (+)</th>
+    <th style="background: #38A3A5; color: white;">Lung Cancer  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td>320</td>  <!-- Replace with actual data -->
+    <td>230</td>  <!-- Replace with actual data -->
+    <td>550</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td>130</td>  <!-- Replace with actual data -->
+    <td>520</td>  <!-- Replace with actual data -->
+    <td>650</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td>450</td>  <!-- Column total -->
+    <td>750</td>  <!-- Column total -->
+    <td>1200</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+</details>
+
+
+<!-- Solution RR02A-->
+<details><summary>Solution A</summary>
+
+$$
+\text{Atributable Risk} = \frac{320}{550} - \frac{130}{650} =  0.58 – 0.20 = 0.38
+$$
+
+__Interpretation:__ 0.38 or 38% of the cases of esophageal cancer in the cohort can be attributed to smoking
+</details>
+
+<!-- Solution RR02B-->
+
+<details><summary>Solution B</summary>
+
+$$
+RR = \frac{\frac{320}{550}}{\frac{130}{650}} = \frac{0.58}{0.20} = 2.90
+$$
+
+__Interpretation:__ The risk of esophageal cancer among the smokers is 2,90 times as high as the risk of  esophageal cancer among the non-smokers.
+
+</details>

@@ -1,0 +1,31 @@
+
+<!----Solution RR03A-->
+<details><summary>Solution A</summary>
+
+$$
+IR_{exposed}= \frac{28}{52,106} = 0.0005373661 \times 100,000 =  53.74 \text{ person-years}
+$$
+
+$$
+IR_{unexposed}= \frac{58}{50,238} = 0.001154505 \times 100,000 = 115.45 \text{ person-years}
+$$
+
+</details>
+
+<!----Solution RR03B-->
+
+
+<details><summary>Solution B</summary>
+
+$$
+\text{Rate Ratio}= \frac{53.74}{115.45}  = 0.465
+$$
+
+
+__Interpretation:__ Women on HRT had 0.47 times the rate of CHD compared to women who did not use HRT
+
+<!---
+(Rate ratios are often interpreted as if they were risk ratios, e.g., post-menopausal women using HRT had 0.47 times the risk of CAD compared to women not using HRT, but it is more precise to refer to the ratio of rates rather than risk.)
+-->
+
+</details>

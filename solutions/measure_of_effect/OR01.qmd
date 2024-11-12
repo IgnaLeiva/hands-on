@@ -1,0 +1,29 @@
+<!--- Solution OR01A---->
+
+<details><summary>Solution A</summary>
+
+$$
+Odds_{case} = \frac{192}{208} = 0.92
+$$
+
+$$
+Odds_{control} = \frac{54}{333} = 0.16
+$$ 
+
+</details>
+
+<!--- Solution OR01B---->
+
+<details><summary>Solution B</summary>
+
+$$
+OR = \frac{0.92}{0.16} = 5.75
+$$
+
+__Interpretation:__ 
+
+- The odds of being exposed to increased alcohol consumption among cases (patients with cancer) is 5.75 times as high compared to the controls (patients with other internal diseases).
+
+- The odds of having cancer are 5.75 times higher among individuals with increased alcohol consumption compared to those without increased alcohol consumption.
+
+</details>

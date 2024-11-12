@@ -1,0 +1,76 @@
+<!-- Solution OR2 TABLE-->
+
+<details><summary>Solution Table</summary>
+
+```{=html}
+<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
+  <tr style="width:10%;font-weight:900;">
+    <th style="background: #38A3A5; color: white;width: 25%;"></th>
+    <th style="background: #38A3A5; color: white;">Phy. Activity  (+)</th>
+    <th style="background: #38A3A5; color: white;">Phy. Activity  (-)</th>
+    <th style="background: #38A3A5; color: white;">Total</th>
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
+    <td>200</td>  <!-- Replace with actual data -->
+    <td>360</td>  <!-- Replace with actual data -->
+    <td>560</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
+    <td>175</td>  <!-- Replace with actual data -->
+    <td>765</td>  <!-- Replace with actual data -->
+    <td>940</td>  <!-- Row total -->
+  </tr>
+  <tr>
+    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
+    <td>560</td>  <!-- Column total -->
+    <td>940</td>  <!-- Column total -->
+    <td>1500</td> <!-- Grand total -->
+  </tr>
+</table>
+```
+
+</details>
+
+
+<!-- Solution OR2A-->
+
+<details><summary>Solution A</summary>
+
+$$
+Risk_{exposed} = \frac{200}{560} = 0.36
+$$
+
+$$
+Risk_{unexposed} = \frac{175}{940} = 0.19
+$$ 
+
+$$
+RR = \frac{0.33}{0.12} = 1.89
+$$ 
+
+__Interpretation:__ The risk of suffering from heart disease when practicing  physical activity is 1.89 times as high compared to participants who didn’t practice physical activity
+
+</details>
+
+<!-- Solution OR2B-->
+
+<details><summary>Solution B</summary>
+
+$$
+Odds_{case} = \frac{200}{175} = 1.14
+$$
+
+$$
+Odds_{control} = \frac{360}{765} = 0.47
+$$ 
+
+$$
+OR = \frac{1.67}{0.45} = 2.42
+$$ 
+
+__Interpretation:__ The odds of practicing physical activity among cases is 2.42 times as high as the odd of practicing physical activity among the controls.
+
+
+</details>

@@ -5,7 +5,7 @@
 
 ## Risk Ratios
 
-### Excercise 1
+### [Excercise 1]{#RR01}
 
 You are part of a research team conducting a cohort study to evaluate the effect of hormone replacement therapy (HRT) on the development of coronary heart disease (CHD). The research team enrolled post-menopausal women on HRT with no prior history of CHD and followed them for 7 years. 
 <p style="font-size: 16px; color: gray;"> Sssume no loss to follow-up.</p>
@@ -47,40 +47,10 @@ _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li>Calculate and interpret the relative risk (RR) for the cohort.</li>
-
-<details><summary>Results</summary>
-
-$$
-P(D+ \mid E+)= \frac{210}{3500} = 0.060
-$$
-
-$$
-P(D+ \mid E-)= \frac{250}{6500} = 0.038
-$$ 
-
-$$
-RR= \frac{0.64}{0.4} = 1.58
-$$ 
-
-
-__Interpretation:__ Women on HRT have 1.58 times the risk of CHD compared to those who do not take HRT over 7 years.
-
-</details>
-
 <li>Calculate and interpret the risk difference (RD) for the cohort</li>
-
-<details><summary>Results</summary>
-
-$$
-RD= 0.060 - 0.038 = 0.022
-$$
-
-__Interpretation:__ There is an excess of 22 cases of CHD per 1000 women attributable to HRT use over 7 years.
-
-
-</details>
-
 </ul>
+
+{{< include solutions/measure_of_effect/RR01.qmd >}}
 
 ### Excercise 2
 
@@ -117,64 +87,14 @@ A study assesses the relationship between smoking habits and esophageal cancer. 
 </table>
 ```
 
-<details><summary>Results</summary>
-
-```{=html}
-<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
-  <tr style="width:10%; font-weight:900;">
-    <th style="background: #38A3A5; color: white;width: 25%;"></th>
-    <th style="background: #38A3A5; color: white;">Lung Cancer  (+)</th>
-    <th style="background: #38A3A5; color: white;">Lung Cancer  (-)</th>
-    <th style="background: #38A3A5; color: white;">Total</th>
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
-    <td>320</td>  <!-- Replace with actual data -->
-    <td>230</td>  <!-- Replace with actual data -->
-    <td>550</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
-    <td>130</td>  <!-- Replace with actual data -->
-    <td>520</td>  <!-- Replace with actual data -->
-    <td>650</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
-    <td>450</td>  <!-- Column total -->
-    <td>750</td>  <!-- Column total -->
-    <td>1200</td> <!-- Grand total -->
-  </tr>
-</table>
-```
-
-</details>
-
 _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li> What proportion of the incidence of esophageal cancer can be directly attributed to smoking?</li>
-<details><summary>Results</summary>
-
-$$
-\text{Atributable Risk} = \frac{320}{550} - \frac{130}{650} =  0.58 – 0.20 = 0.38
-$$
-
-__Interpretation:__ 0.38 or 38% of the cases of esophageal cancer in the cohort can be attributed to smoking
-</details>
-
 <li>Calculate the risk ratio for the relationship between smoking and lung cancer, interpret the result.</li>
-<details><summary>Results</summary>
-
-$$
-RR = \frac{\frac{320}{550}}{\frac{130}{650}} = \frac{0.58}{0.20} = 2.90
-$$
-
-__Interpretation:__ The risk of esophageal cancer among the smokers is 2,90 times as high as the risk of  esophageal cancer among the non-smokers.
-
-</details>
 </ul>
 
+{{< include solutions/measure_of_effect/RR02.qmd >}}
 
 ### Excercise 3
 
@@ -206,37 +126,10 @@ _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li> Calculate the Incidece rate among the exposed and unexposed women</li>
-<details><summary>Results</summary>
-
-$$
-IR_{exposed}= \frac{28}{52,106} = 0.0005373661 \times 100,000 =  53.74 \text{ person-years}
-$$
-
-$$
-IR_{unexposed}= \frac{58}{50,238} = 0.001154505 \times 100,000 = 115.45 \text{ person-years}
-$$
-
-</details>
-
 <li>Calculate the rate ratio for the relationship between HRT and CHD, interpret the result.</li>
-
-
-<details><summary>Results</summary>
-
-$$
-\text{Rate Ratio}= \frac{53.74}{115.45}  = 0.465
-$$
-
-
-__Interpretation:__ Women on HRT had 0.47 times the rate of CHD compared to women who did not use HRT
-
-<!---
-(Rate ratios are often interpreted as if they were risk ratios, e.g., post-menopausal women using HRT had 0.47 times the risk of CAD compared to women not using HRT, but it is more precise to refer to the ratio of rates rather than risk.)
--->
-</details>
 </ul>
 
-
+{{< include solutions/measure_of_effect/RR03.qmd >}}
 
 ## Odds Ratios
 
@@ -279,34 +172,11 @@ _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li>Calculate the odds to be exposed while diseased/not diseased (i.e. case/control)</li>
-
-<details><summary>Results</summary>
-
-$$
-Odds_{case} = \frac{192}{208} = 0.92
-$$
-
-$$
-Odds_{control} = \frac{54}{333} = 0.16
-$$ 
-
-</details>
 <li>Calculate and interpret the odds ratio for the occurrence of esophageal cancer</li>
-<details><summary>Results</summary>
-
-$$
-OR = \frac{0.92}{0.16} = 5.75
-$$
-
-__Interpretation:__ 
-
-- The odds of being exposed to increased alcohol consumption among cases (patients with cancer) is 5.75 times as high compared to the controls (patients with other internal diseases).
-
-- The odds of having cancer are 5.75 times higher among individuals with increased alcohol consumption compared to those without increased alcohol consumption.
-
-</details>
-
 </ul>
+
+{{< include solutions/measure_of_effect/OR01.qmd >}}
+
 
 ### Excercise 2
 
@@ -344,82 +214,14 @@ A cohort study is investigating the impact of regular physical activity on the i
 </table>
 ```
 
-<details><summary>Results</summary>
-
-```{=html}
-<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
-  <tr style="width:10%;font-weight:900;">
-    <th style="background: #38A3A5; color: white;width: 25%;"></th>
-    <th style="background: #38A3A5; color: white;">Phy. Activity  (+)</th>
-    <th style="background: #38A3A5; color: white;">Phy. Activity  (-)</th>
-    <th style="background: #38A3A5; color: white;">Total</th>
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker (+)</th>
-    <td>200</td>  <!-- Replace with actual data -->
-    <td>360</td>  <!-- Replace with actual data -->
-    <td>560</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white; font-weight:900;">Smoker(-)</th>
-    <td>175</td>  <!-- Replace with actual data -->
-    <td>765</td>  <!-- Replace with actual data -->
-    <td>940</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="background: #38A3A5; color: white;width: 25%; font-weight:900;">Total</th>
-    <td>560</td>  <!-- Column total -->
-    <td>940</td>  <!-- Column total -->
-    <td>1500</td> <!-- Grand total -->
-  </tr>
-</table>
-```
-
-</details>
-
 _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li>Calculate the risk for each group and the relative risk based on the table you filled out, interpret the results.</li>
-<details><summary>Results</summary>
-
-$$
-Risk_{exposed} = \frac{200}{560} = 0.36
-$$
-
-$$
-Risk_{unexposed} = \frac{175}{940} = 0.19
-$$ 
-
-$$
-RR = \frac{0.33}{0.12} = 1.89
-$$ 
-
-__Interpretation:__ The risk of suffering from heart disease when practicing  physical activity is 1.89 times as high compared to participants who didn’t practice physical activity
-
-</details>
-
 <li>Moving to the case-control setting, assume a case-control study instead of a cohort study. Using the same previous figures. Calculate the odds and odds ratio. Please interpret your results.</li>
-<details><summary>Results</summary>
-
-$$
-Odds_{case} = \frac{200}{175} = 1.14
-$$
-
-$$
-Odds_{control} = \frac{360}{765} = 0.47
-$$ 
-
-$$
-OR = \frac{1.67}{0.45} = 2.42
-$$ 
-
-__Interpretation:__ The odds of practicing physical activity among cases is 2.42 times as high as the odd of practicing physical activity among the controls.
-
-
-</details>
-
 </ul>
+
+{{< include solutions/measure_of_effect/OR02.qmd >}}
 
 ### Excercise 3
 
@@ -456,59 +258,12 @@ A second study is again investigating the influence of smoking on respiratory co
 </table>
 ```
 
-<details><summary>Results</summary>
-
-```{=html}
-<table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
-  <tr style="width:10%;">
-    <th style="background: #38A3A5; color: white;width: 25%;"></th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
-    <th style="background: #38A3A5; color: white;">Total</th>
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white;">Smoker (+)</th>
-    <td>30</td>  <!-- Replace with actual data -->
-    <td>570</td>  <!-- Replace with actual data -->
-    <td>600</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="width:25%; background: #38A3A5; color: white;">Smoker(-)</th>
-    <td>33</td>  <!-- Replace with actual data -->
-    <td>267</td>  <!-- Replace with actual data -->
-    <td>300</td>  <!-- Row total -->
-  </tr>
-  <tr>
-    <th style="background: #38A3A5; color: white;width: 25%;">Total</th>
-    <td>63</td>  <!-- Column total -->
-    <td>837</td>  <!-- Column total -->
-    <td>900</td> <!-- Grand total -->
-  </tr>
-</table>
-```
-</details>
 
 _Task:_
 
 <ul style="list-style-type: upper-alpha;">
 <li>Calculate the risk ratio and the odds ratio</li>
-<details><summary>Results</summary>
-
-$$
-RR = \frac{\frac{30}{600}}{\frac{33}{300}} = 0.45
-$$
-
-$$
-OR = \frac{\frac{30}{570}}{\frac{33}{267}} = 0.43
-$$ 
-
-</details>
 <li>Looking at the different measures you calculated, explain why the RR and OR are different/similar from each other in task 2 vs. task 3.</li>
-
-<details><summary>Results</summary>
-
-__Rare disease assumption:__ when studying diseases that have a low prevalence (<10% as a rule of thumb) in the study population, the odds ratio is a good approximation of the risk ratio.
-
-</details>
-
 </ul>
+
+{{< include solutions/measure_of_effect/OR03.qmd >}}
