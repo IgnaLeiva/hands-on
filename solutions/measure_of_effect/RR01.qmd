@@ -20,7 +20,7 @@ __Interpretation:__ Women on HRT have 1.58 times the risk of CHD compared to tho
 </details>
 
 <!--Solution RR01B-->
-<details><summary>Solution A</summary>
+<details><summary>Solution B</summary>
 
 $$
 RD= 0.060 - 0.038 = 0.022
