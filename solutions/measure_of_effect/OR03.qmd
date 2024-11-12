@@ -6,27 +6,27 @@
 <table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
   <tr style="width:10%;">
     <th style="background: #38A3A5; color: white;width: 25%;"></th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Asthma  (+)</th>
+    <th style="background: #38A3A5; color: white;">Asthma  (-)</th>
     <th style="background: #38A3A5; color: white;">Total</th>
   </tr>
   <tr>
     <th style="width:25%; background: #38A3A5; color: white;">Smoker (+)</th>
-    <td>30</td>  <!-- Replace with actual data -->
-    <td>570</td>  <!-- Replace with actual data -->
-    <td>600</td>  <!-- Row total -->
+    <td>10</td>  <!-- Replace with actual data -->
+    <td>430</td>  <!-- Replace with actual data -->
+    <td>440</td>  <!-- Row total -->
   </tr>
   <tr>
     <th style="width:25%; background: #38A3A5; color: white;">Smoker(-)</th>
-    <td>33</td>  <!-- Replace with actual data -->
-    <td>267</td>  <!-- Replace with actual data -->
-    <td>300</td>  <!-- Row total -->
+    <td>10</td>  <!-- Replace with actual data -->
+    <td>950</td>  <!-- Replace with actual data -->
+    <td>960</td>  <!-- Row total -->
   </tr>
   <tr>
     <th style="background: #38A3A5; color: white;width: 25%;">Total</th>
-    <td>63</td>  <!-- Column total -->
-    <td>837</td>  <!-- Column total -->
-    <td>900</td> <!-- Grand total -->
+    <td>20</td>  <!-- Column total -->
+    <td>1380</td>  <!-- Column total -->
+    <td>1400</td> <!-- Grand total -->
   </tr>
 </table>
 ```
@@ -36,11 +36,11 @@
 <details><summary>Solution A</summary>
 
 $$
-RR = \frac{\frac{30}{600}}{\frac{33}{300}} = 0.45
+RR = \frac{\frac{10}{440}}{\frac{10}{960}} = 2.18
 $$
 
 $$
-OR = \frac{\frac{30}{570}}{\frac{33}{267}} = 0.43
+OR = \frac{\frac{10}{10}}{\frac{430}{950}} = 2.21
 $$ 
 
 </details>
@@ -50,6 +50,6 @@ $$
 
 <details><summary>Solution B</summary>
 
-__Rare disease assumption:__ when studying diseases that have a low prevalence (<10% as a rule of thumb) in the study population, the odds ratio is a good approximation of the risk ratio.
+__Rare disease assumption:__ when studying diseases that have a low prevalence (<10% as a rule of thumb)in the study population, the odds ratio is a good approximation of the relative risk.
 
 </details>

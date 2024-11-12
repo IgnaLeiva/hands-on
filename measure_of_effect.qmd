@@ -225,7 +225,8 @@ _Task:_
 
 ### Excercise 3
 
-A second study is again investigating the influence of smoking on respiratory complaints. This time, 900 study participants were enrolled, 93% of those didn’t suffer from respiratory complaints. 5% of the 600 participants that were smokers suffered from respiratory complaints.
+A study investigating the influence of smoking on asthma crises enrolled 1,400 participants. Among these participants, 20 experienced asthma crises, of which 50% were smokers. Additionally, among the participants who did not experience asthma crises, 430 were smokers.
+
 
 <p style="color: #a50e58; font-weight: 900;">Fill out the 2x2 table! </p>
 
@@ -233,8 +234,8 @@ A second study is again investigating the influence of smoking on respiratory co
 <table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; ">
   <tr style="width:10%;">
     <th style="background: #38A3A5; color: white;width: 25%;"></th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (+)</th>
-    <th style="background: #38A3A5; color: white;">Resp. Complaints  (-)</th>
+    <th style="background: #38A3A5; color: white;">Asthma  (+)</th>
+    <th style="background: #38A3A5; color: white;">Asthma  (-)</th>
     <th style="background: #38A3A5; color: white;">Total</th>
   </tr>
   <tr>
@@ -262,8 +263,8 @@ A second study is again investigating the influence of smoking on respiratory co
 _Task:_
 
 <ul style="list-style-type: upper-alpha;">
-<li>Calculate the risk ratio and the odds ratio</li>
-<li>Looking at the different measures you calculated, explain why the RR and OR are different/similar from each other in task 2 vs. task 3.</li>
+<li>Calculate the relative risk and the odds ratio</li>
+<li>Did you see that the OR and RR were similar? Explain why this may happen.</li>
 </ul>
 
 {{< include solutions/measure_of_effect/OR03.qmd >}}
