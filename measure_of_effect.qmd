@@ -10,11 +10,11 @@ These are hypothetical scenarios designed to practice the topics covered during 
 ### [Excercise 1]{#RR01}
 
 You are part of a research team conducting a cohort study to evaluate the effect of hormone replacement therapy (HRT) on the development of coronary heart disease (CHD). The research team enrolled post-menopausal women on HRT with no prior history of CHD and followed them for 7 years. 
-<p style="font-size: 16px; color: gray;"> Sssume no loss to follow-up.</p>
+<p style="font-size: 16px; color: #333333;"> __Note__: Assume no loss to follow-up.</p>
 
 
 
-<p style="font-size: 16px; color: gray; font-weight: 100;font-style: italic;">Remember: Exposure, HRT, is on the left side of the table, while the outcome, CHD, is on the top of the table.</p>
+<p style="font-size: 16px; color: #333333; font-weight: 100;font-style: italic;"><span style="font-weight: 800;">Remember</span>:  Exposure, HRT, is on the left side of the table, while the outcome, CHD, is on the top of the table.</p>
 
 ```{=html}
 <table cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
