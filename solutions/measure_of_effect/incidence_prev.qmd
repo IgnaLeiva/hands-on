@@ -1,0 +1,33 @@
+<!-- soutions -->
+
+<details><summary>Excercise 3</summary>
+
+Get the prevalence to 100,000 people
+
+$$
+Prevalence = \frac{1,500 \times 100,000}{3,000,000}= 50 \text{ cases per 100,000}
+$$
+
+$$
+\text{\% New cases}= \frac{10}{50} = 0.2 \times 100 = 20\%
+$$
+
+</details>
+
+
+
+<details><summary>Excercise 4</summary>
+
+We now that:
+
+$$
+Prevalence = Incidence \times \text{Duration of the disease}
+$$
+
+Then,
+
+$$
+Prevalence = \text{12 per 100,000 people anually} \times \text{0.5 years} = \text{6 cases per 100,000 people }
+$$
+
+</details>

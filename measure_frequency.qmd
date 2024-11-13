@@ -1,11 +1,33 @@
 # Measures of frequency {#sec-measure-of-frequency}
 
+These are hypothetical scenarios designed to practice the topics covered during the lecture.
 
-### Incidence
+[Lecture 2. Measures in (Pharmaco)Epidemiology](https://ignaleiva.github.io/Lecture2-Frequency-Effect/#/section) 
 
-```{r}
-1+2
+### Excercise 1
 
-```
+You conduct a survey over the next month in a neighboring city and interview all 2,000 residents. Of these, 400 people report symptoms of anxiety.
 
-### Prevalence
+What type of prevalence are you examining? What is the point/period prevalence of anxiety symptoms in the neighboring city?
+
+### Excercise 2
+
+You talk to all 200 people in your town on a spring day and find 60 of them have allergy symptoms. 
+
+What type of prevalence are you examining? What is the point/period prevalence of have allergy symptoms?
+
+### Excercise 3
+
+A prevalence survey corried out from January 1 to December 31, 2020, found 1,500 cases of diabetes in a population of 3 million people. It is also known that the incidence in this population is 10 per 100,000 per year.
+
+What percentage of these 1,500 prevalent cases were newly diagnosed in 2020?
+
+### Excercise 4
+
+The annual incidence of pancreatic cancer is approximately 12 per 100,000 people in a certain country. The median survival time before diagnosis is close to 6 months (0.5 years).
+
+What is the prevalence?
+
+__Solutions:__
+
+{{< include solutions/measure_of_effect/incidence_prev.qmd >}}
