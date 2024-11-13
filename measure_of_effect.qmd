@@ -1,6 +1,8 @@
 # Measures of effect (association) {#sec-measure-of-effect}
 
+These are hypothetical scenarios designed to practice the topics covered during the lecture.
 
+[Lecture 2. Measures in (Pharmaco)Epidemiology](https://ignaleiva.github.io/Lecture2-Frequency-Effect/#/section) 
 
 
 ## Risk Ratios
