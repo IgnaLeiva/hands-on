@@ -28,6 +28,5 @@ The annual incidence of pancreatic cancer is approximately 12 per 100,000 people
 
 What is the prevalence?
 
-__Solutions:__
-
-{{< include solutions/measure_of_effect/incidence_prev.qmd >}}
+<!--
+{{< include solutions/measure_of_effect/incidence_prev.qmd >}}-->

@@ -52,7 +52,8 @@ _Task:_
 <li>Calculate and interpret the risk difference (RD) for the cohort</li>
 </ul>
 
-{{< include solutions/measure_of_effect/RR01.qmd >}}
+<!--
+{{< include solutions/measure_of_effect/RR01.qmd >}} -->
 
 ### Excercise 2
 
@@ -96,7 +97,8 @@ _Task:_
 <li>Calculate the risk ratio for the relationship between smoking and lung cancer, interpret the result.</li>
 </ul>
 
-{{< include solutions/measure_of_effect/RR02.qmd >}}
+<!--
+{{< include solutions/measure_of_effect/RR02.qmd >}} -->
 
 ### Excercise 3
 
@@ -131,7 +133,8 @@ _Task:_
 <li>Calculate the rate ratio for the relationship between HRT and CHD, interpret the result.</li>
 </ul>
 
-{{< include solutions/measure_of_effect/RR03.qmd >}}
+<!--
+{{< include solutions/measure_of_effect/RR03.qmd >}}-->
 
 ## Odds Ratios
 
@@ -177,7 +180,8 @@ _Task:_
 <li>Calculate and interpret the odds ratio for the occurrence of esophageal cancer</li>
 </ul>
 
-{{< include solutions/measure_of_effect/OR01.qmd >}}
+<!--
+{{< include solutions/measure_of_effect/OR01.qmd >}}-->
 
 
 ### Excercise 2
@@ -223,7 +227,9 @@ _Task:_
 <li>Moving to the case-control setting, assume a case-control study instead of a cohort study. Using the same previous figures. Calculate the odds and odds ratio. Please interpret your results.</li>
 </ul>
 
-{{< include solutions/measure_of_effect/OR02.qmd >}}
+<!--
+
+{{< include solutions/measure_of_effect/OR02.qmd >}} -->
 
 ### Excercise 3
 
@@ -269,4 +275,6 @@ _Task:_
 <li>Did you see that the OR and RR were similar? Explain why this may happen.</li>
 </ul>
 
-{{< include solutions/measure_of_effect/OR03.qmd >}}
+<!--
+
+{{< include solutions/measure_of_effect/OR03.qmd >}} -->
